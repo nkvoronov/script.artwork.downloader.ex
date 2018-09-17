@@ -1,6 +1,6 @@
 # XBMC Media Center language file
-# Addon Name: Artwork Downloader
-# Addon id: script.artwork.downloader
+# Addon Name: Artwork Downloader Ex
+# Addon id: script.artwork.downloader.ex
 # Addon Provider: Martijn
 msgid ""
 msgstr ""

@@ -25,7 +25,7 @@ import xbmcgui
 from xbmcaddon import Addon
 
 ### get addon info
-__addon__           = Addon("script.artwork.downloader")
+__addon__           = Addon("script.artwork.downloader.ex")
 __addonname__       = __addon__.getAddonInfo( "name" )
 __addonprofile__    = xbmc.translatePath( __addon__.getAddonInfo('profile') ).decode('utf-8')
 

@@ -21,7 +21,7 @@ import xbmc
 import xbmcaddon
 
 ### get addon info
-__addon__       = xbmcaddon.Addon(id='script.artwork.downloader')
+__addon__       = xbmcaddon.Addon(id='script.artwork.downloader.ex')
 __addonid__     = __addon__.getAddonInfo('id')
 __addonname__   = __addon__.getAddonInfo('name')
 __author__      = __addon__.getAddonInfo('author')

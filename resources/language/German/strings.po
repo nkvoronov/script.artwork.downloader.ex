@@ -1,6 +1,6 @@
 # XBMC Media Center language file
-# Addon Name: Artwork Downloader
-# Addon id: script.artwork.downloader
+# Addon Name: Artwork Downloader Ex
+# Addon id: script.artwork.downloader.ex
 # Addon Provider: Martijn
 msgid ""
 msgstr ""
@@ -141,8 +141,8 @@ msgid "General"
 msgstr "Allgemein"
 
 msgctxt "#32032"
-msgid "[B]General settings used in Artwork Downloader[/B]"
-msgstr "[B]Allgemeine Einstellungen für den Artwork Downloader[/B]"
+msgid "[B]General settings used in Artwork Downloader Ex[/B]"
+msgstr "[B]Allgemeine Einstellungen für den Artwork Downloader Ex[/B]"
 
 msgctxt "#32033"
 msgid "Run in background"
@@ -409,5 +409,5 @@ msgid "[I]For bugs, requests or general questions visit the [/I]"
 msgstr "[I]Für Fehler, Vorschläge oder alggemeine Fragen, besuche das [/I]"
 
 msgctxt "#32192"
-msgid "[I]  Artwork Downloader thread on the XBMC forum. [/I]"
-msgstr "[I]  Artwork Downloader-Thema im XBMC-Forum (englisch). [/I]"
+msgid "[I]  Artwork Downloader Ex thread on the XBMC forum. [/I]"
+msgstr "[I]  Artwork Downloader Ex-Thema im XBMC-Forum (englisch). [/I]"

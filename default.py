@@ -62,7 +62,7 @@ download_succes = False
 failed_items = []
 image_list = []
 limit = get_limit()
-reportdata = '[B]Artwork Downloader:[/B]'
+reportdata = '[B]Artwork Downloader Ex:[/B]'
 setting = get()
 startup = {'mediatype': False,
            'dbid': False,
@@ -817,7 +817,7 @@ class Main:
 
 ### Start of script
 if (__name__ == '__main__'):
-    log('######## Artwork Downloader: Initializing...............................', xbmc.LOGNOTICE)
+    log('######## Artwork Downloader Ex: Initializing...............................', xbmc.LOGNOTICE)
     log('## Add-on Name = %s' % str(__addonname__), xbmc.LOGNOTICE)
     log('## Version     = %s' % str(__version__), xbmc.LOGNOTICE)
     Main()

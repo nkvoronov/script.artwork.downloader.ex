@@ -57,7 +57,7 @@ def autostart():
         # This because it is possible that script was running even when we previously deleted it.
         # Could happen when switching profiles and service gets triggered again
         if setting.get('service_startup') and not xbmcvfs.exists(tempdir):
-            xbmc.executebuiltin('XBMC.AlarmClock(ArtworkDownloader,XBMC.RunScript(script.artwork.downloader,silent=true),00:%s:15,silent)' % setting.get('setting.service_startupdelay')) 
+            xbmc.executebuiltin('XBMC.AlarmClock(ArtworkDownloader,XBMC.RunScript(script.artwork.downloader.ex,silent=true),00:%s:15,silent)' % setting.get('setting.service_startupdelay')) 
         if setting.get('service_enable'):
             while (not xbmc.abortRequested):
                 xbmc.sleep(5000)
@@ -66,7 +66,7 @@ def autostart():
                 else:
                     if not xbmcvfs.exists(tempdir):
                         log('Time is %s:%s, Scheduled run starting' % (time.strftime('%H'), time.strftime('%M')))
-                        xbmc.executebuiltin('XBMC.RunScript(script.artwork.downloader,silent=true)')
+                        xbmc.executebuiltin('XBMC.RunScript(script.artwork.downloader.ex,silent=true)')
                         # Because we now use the commoncache module the script is run so fast it is possible it is started twice
                         # within the one minute window. So keep looping until it goes out of that window
                         while (not xbmc.abortRequested and time.strftime('%H:%M') == service_runtime):
