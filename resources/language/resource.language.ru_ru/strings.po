@@ -1,7 +1,7 @@
 # XBMC Media Center language file
 # Addon Name: Artwork Downloader Ex
 # Addon id: script.artwork.downloader.ex
-# Addon Provider: Martijn
+# Addon Provider: Martijn, YLLOW_DRAGON
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Addons\n"
@@ -9,441 +9,441 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: XBMC Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/xbmc-addons/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #Add-on messages id=32001 to 32030
 
 msgctxt "#32001"
 msgid "Please help get more artwork or donate on:"
-msgstr ""
+msgstr "Пожалуйста, помогите получить больше работ или пожертвовать:"
 
 msgctxt "#32002"
 msgid "Scheduled run at time: (24h)"
-msgstr ""
+msgstr "Запланировать запуск в: (24 часа)"
 
 msgctxt "#32003"
 msgid "Faulty/empty settings combination found!"
-msgstr ""
+msgstr "Найдена комбинация неисправностей/пустых настроек!"
 
 msgctxt "#32004"
 msgid "Select your preferences and press OK to save"
-msgstr ""
+msgstr "Установите свои настройки и нажмите OK, чтобы сохранить"
 
 msgctxt "#32005"
 msgid "Cleaning up"
-msgstr ""
+msgstr "Очистить"
 
 msgctxt "#32006"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 msgctxt "#32007"
 msgid "Error downloading file"
-msgstr ""
+msgstr "Ошибка загрузки файла"
 
 msgctxt "#32008"
 msgid "Searching for artwork"
-msgstr ""
+msgstr "Поиск илюстраций"
 
 msgctxt "#32009"
 msgid "Downloading"
-msgstr ""
+msgstr "Загрузка…"
 
 msgctxt "#32010"
 msgid "Add-on aborted"
-msgstr ""
+msgstr "Дополнение прервано"
 
 msgctxt "#32011"
 msgid "Network error detected"
-msgstr ""
+msgstr "Обнаружена сетевая ошибка"
 
 msgctxt "#32012"
 msgid "Finished"
-msgstr ""
+msgstr "Окончено"
 
 msgctxt "#32013"
 msgid "Enable downloading"
-msgstr ""
+msgstr "Разрешить загрузку"
 
 msgctxt "#32014"
 msgid "Total Artwork"
-msgstr ""
+msgstr "Всего илюстраций"
 
 msgctxt "#32015"
 msgid "Please choose"
-msgstr ""
+msgstr "Пожалуйста, выберите"
 
 msgctxt "#32016"
 msgid "Failed items"
-msgstr ""
+msgstr "Неверные элементы"
 
 msgctxt "#32017"
 msgid "Cancelled"
-msgstr ""
+msgstr "Отменено"
 
 msgctxt "#32018"
 msgid "Download canceled by user"
-msgstr ""
+msgstr "Загрузка отменено пользователем"
 
 msgctxt "#32019"
 msgid "Delayed start in minutes:"
-msgstr ""
+msgstr "Задержка старта в минутах:"
 
 msgctxt "#32020"
 msgid "Downloaded"
-msgstr ""
+msgstr "Загружено"
 
 msgctxt "#32021"
 msgid "Processing Artwork"
-msgstr ""
+msgstr "Обработка изображений"
 
 msgctxt "#32022"
 msgid "not found!"
-msgstr ""
+msgstr "не найдено"
 
 msgctxt "#32023"
 msgid "Run add-on at login"
-msgstr ""
+msgstr "Запуск дополнения при входе в систему"
 
 msgctxt "#32024"
 msgid "Run add-on as a service"
-msgstr ""
+msgstr "Запуск дополнения как службы"
 
 msgctxt "#32025"
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 msgctxt "#32026"
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 msgctxt "#32027"
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 msgctxt "#32028"
 msgid "Report"
-msgstr ""
+msgstr "Отчет"
 
 msgctxt "#32029"
 msgid "[I](After changes are made you must restart XBMC) [/I]"
-msgstr ""
+msgstr "[I](После внесения изменений вы должны перезапустить KODI) [/I]"
 
 msgctxt "#32030"
 msgid "No provider ID found for looking up artwork"
-msgstr ""
+msgstr "Идентификатор провайдера не найден для поиска илюстраций"
 
 #Add-on settings: General section id=32031 to 32050
 
 msgctxt "#32031"
 msgid "General"
-msgstr ""
+msgstr "Общие"
 
 msgctxt "#32032"
 msgid "[B]General settings used in Artwork Downloader Ex[/B]"
-msgstr ""
+msgstr "[B]Общие настройки, используемые в Artwork Downloader Ex[/B]"
 
 msgctxt "#32033"
 msgid "Run in background"
-msgstr ""
+msgstr "Запустить в фоне"
 
 msgctxt "#32034"
 msgid "Show dialog on finished/errors"
-msgstr ""
+msgstr "Показать диалог при окончании/ошибках"
 
 msgctxt "#32035"
 msgid "Overwrite all existing artwork [I](will be automaticly disabled after downloading) [/I]"
-msgstr ""
+msgstr "Перезаписать все существующие иллюстрации [I] (автоматически отключится после загрузки) [/I]"
 
 msgctxt "#32036"
 msgid "Centralize extrafanart [I](Can be used for extrafanart slideshow) [/I]"
-msgstr ""
+msgstr "Централизовать доп. фанарты [I] (Может использоваться для слайд-шоу доп. фанартов) [/I]"
 
 msgctxt "#32037"
 msgid "Central TV extrafanart directory"
-msgstr ""
+msgstr "Папка для доп. фанартов (Сериалы)"
 
 msgctxt "#32038"
 msgid "Central Movie extrafanart directory"
-msgstr ""
+msgstr "Папка для доп. фанартов (Фильмы)"
 
 msgctxt "#32039"
 msgid "View download report from latest download run"
-msgstr ""
+msgstr "Показать отчет о загрузке последнего запуска"
 
 msgctxt "#32040"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #empty strings from id 32041 to 32050
 #Add-on settings: Limit section id=32051 to 32060
 
 msgctxt "#32051"
 msgid "Limit Artwork"
-msgstr ""
+msgstr "Лимит илюстраций"
 
 msgctxt "#32052"
 msgid "[B]Options for limiting downloaded artwork[/B]"
-msgstr ""
+msgstr "[B]Параметры для ограничения загруженных изображений[/B]"
 
 msgctxt "#32053"
 msgid "Maximum extrafanart"
-msgstr ""
+msgstr "Максимум доп. фанартов"
 
 msgctxt "#32054"
 msgid "Minimum rating"
-msgstr ""
+msgstr "Минимум рейтинг"
 
 msgctxt "#32055"
 msgid "Preferred language:"
-msgstr ""
+msgstr "Предпочтительный язык:"
 
 msgctxt "#32056"
 msgid "Exclude fanart that has text"
-msgstr ""
+msgstr "Исключить фанарты с текстом"
 
 msgctxt "#32057"
 msgid "Minimum fanart size: Movies"
-msgstr ""
+msgstr "Минимальный размер фанарта (Фильмы)"
 
 msgctxt "#32058"
 msgid "Minimum fanart size: TV Shows"
-msgstr ""
+msgstr "Минимальный размер фанарта (Сериалы)"
 
 #empty strings from id 32059 to 32061
 
 msgctxt "#32062"
 msgid "Minimum fanart size: Musicvideos"
-msgstr ""
+msgstr "Минимальный размер фанарта (Муз. видео)"
 
 #empty strings from id 32063 to 32070
 #Add-on settings: Movie section id=32071 to 32080
 
 msgctxt "#32071"
 msgid "Movies"
-msgstr ""
+msgstr "Фильмы"
 
 msgctxt "#32072"
 msgid "[B]Options for downloading Movie artwork[/B]"
-msgstr ""
+msgstr "[B]Параметры для загрузки илюстраций Фильмов[/B]"
 
 #empty strings from id 32073 to 32080
 #Add-on settings: TV Show section id=32081 to 32090
 
 msgctxt "#32081"
 msgid "TV Shows"
-msgstr ""
+msgstr "Сериалы"
 
 msgctxt "#32082"
 msgid "[B]Options for downloading TV Show artwork[/B]"
-msgstr ""
+msgstr "[B]Параметры для загрузки илюстраций Сериалов[/B]"
 
 msgctxt "#32083"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 msgctxt "#32084"
 msgid "No valid library item selected"
-msgstr ""
+msgstr "Не выбран действительный элемент библиотеки"
 
 #empty strings from id 32085 to 32090
 #Add-on settings: Music section id=32091 to 32100
 
 msgctxt "#32091"
 msgid "Musicvideo"
-msgstr ""
+msgstr "Муз. видео"
 
 msgctxt "#32092"
 msgid "[B]Options for downloading Musicvideo artwork[/B]"
-msgstr ""
+msgstr "[B]Параметры для загрузки илюстраций Муз. видео[/B]"
 
 #empty strings from id 32093 to 32100
 #Add-on settings: Advanced settings section id=32101 to 32020
 
 msgctxt "#32101"
 msgid "Advanced"
-msgstr ""
+msgstr "Дополнительные"
 
 msgctxt "#32102"
 msgid "[B]Some more advanced settings to be used[/B]"
-msgstr ""
+msgstr "[B]Некоторые дополнительные настройки, которые будут использоваться[/B]"
 
 msgctxt "#32103"
 msgid "Use local files"
-msgstr ""
+msgstr "Использовать локальные файлы"
 
 #empty strings from id 32104 to 32105
 
 msgctxt "#32106"
 msgid "Use XBMC pre-caching [I](caches images to thumbnails folder while downloading) [/I]"
-msgstr ""
+msgstr "Используйте предварительное кэширование KODI [I](кэширует изображения в папку эскизов при загрузке)[/I]"
 
 #empty strings from id 32107 to 32120
 #Add-on messages: Image types id=32121 to 32140
 
 msgctxt "#32121"
 msgid "Fanart"
-msgstr ""
+msgstr "Фанарт"
 
 msgctxt "#32122"
 msgid "Extrafanart"
-msgstr ""
+msgstr "Доп. Фанарт"
 
 msgctxt "#32123"
 msgid "Banner"
-msgstr ""
+msgstr "Баннер"
 
 msgctxt "#32124"
 msgid "Season Banners"
-msgstr ""
+msgstr "Баннеры сезонов"
 
 msgctxt "#32125"
 msgid "ClearArt"
-msgstr ""
+msgstr "Виньетка"
 
 msgctxt "#32126"
 msgid "Logo"
-msgstr ""
+msgstr "Логотип"
 
 msgctxt "#32127"
 msgid "Character Art"
-msgstr ""
+msgstr "Персонаж"
 
 msgctxt "#32128"
 msgid "Poster"
-msgstr ""
+msgstr "Постер"
 
 msgctxt "#32129"
 msgid "Season Posters"
-msgstr ""
+msgstr "Постеры сезонов"
 
 msgctxt "#32130"
 msgid "Thumb 16:9"
-msgstr ""
+msgstr "Эскиз 16:9"
 
 msgctxt "#32131"
 msgid "Extrathumbs"
-msgstr ""
+msgstr "Доп. эскизы"
 
 msgctxt "#32132"
 msgid "Disc Art"
-msgstr ""
+msgstr "Диск"
 
 msgctxt "#32133"
 msgid "Artwork"
-msgstr ""
+msgstr "Обложка"
 
 msgctxt "#32134"
 msgid "Season Thumbs 16:9"
-msgstr ""
+msgstr "Эскизы сезонов 16:9"
 
 #empty strings from id 32135 to 32140
 #Add-on messages:
 
 msgctxt "#32141"
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 msgctxt "#32142"
 msgid "Rating"
-msgstr ""
+msgstr "Рейтинг"
 
 msgctxt "#32143"
 msgid "Votes"
-msgstr ""
+msgstr "Голосов"
 
 msgctxt "#32144"
 msgid "Season"
-msgstr ""
+msgstr "Сезон"
 
 msgctxt "#32145"
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 msgctxt "#32146"
 msgid "Disc"
-msgstr ""
+msgstr "Диск"
 
 msgctxt "#32147"
 msgid "below limit setting"
-msgstr ""
+msgstr "ниже лимита настройки"
 
 msgctxt "#32148"
 msgid "Time of finish"
-msgstr ""
+msgstr "Время окончания"
 
 msgctxt "#32149"
 msgid "No failed or missing items found"
-msgstr ""
+msgstr "Нет обнаруженных пропущенных или отсутствующих элементов"
 
 msgctxt "#32150"
 msgid "add-on aborted because of XBMC shutting down"
-msgstr ""
+msgstr "Дополнение закрыто из-за закрытия KODI"
 
 msgctxt "#32151"
 msgid "add-on cancelled while searching for"
-msgstr ""
+msgstr "Дополнение отменено при поиске"
 
 msgctxt "#32152"
 msgid "add-on aborted because of problems"
-msgstr ""
+msgstr "Дополнение отменено из-за проблем"
 
 msgctxt "#32153"
 msgid "add-on cancelled while downloading Artwork"
-msgstr ""
+msgstr "Дополнение отменено при загрузке илюстраций"
 
 #empty strings from id 32154 to 32180
 #Add-on settings: Info section id=32181 to 32190
 
 msgctxt "#32181"
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
 msgctxt "#32182"
 msgid "Please donate or contribute to the following sites to show your support:"
-msgstr ""
+msgstr "Пожалуйста, пожертвуйте или внесите свой вклад в следующие сайты, чтобы показать свою поддержку:"
 
 msgctxt "#32183"
 msgid "[I]www.xbmc.org [/I]"
-msgstr ""
+msgstr "[I]kodi.tv [/I]"
 
 msgctxt "#32184"
 msgid "[I]fanart.tv [/I]"
-msgstr ""
+msgstr "[I]fanart.tv [/I]"
 
 msgctxt "#32185"
 msgid "[I]www.thetvdb.com [/I]"
-msgstr ""
+msgstr "[I]www.thetvdb.com [/I]"
 
 msgctxt "#32186"
 msgid "[I]www.themoviedb.org [/I]"
-msgstr ""
+msgstr "[I]www.themoviedb.org [/I]"
 
 msgctxt "#32187"
 msgid "Add-on authors:"
-msgstr ""
+msgstr "Авторы дополнения:"
 
 msgctxt "#32188"
 msgid "[I]paddycarey, Martijn Kaijser, putneyj [/I]"
-msgstr ""
+msgstr "[I]paddycarey, Martijn Kaijser, putneyj [/I]"
 
 msgctxt "#32189"
 msgid "Thanks to:"
-msgstr ""
+msgstr "Спасибо:"
 
 msgctxt "#32190"
 msgid "Team XBMC and the authors of the other addons on which this was based."
-msgstr ""
+msgstr "команде KODI и авторам других дополнений, на которых основано это дополнение."
 
 msgctxt "#32191"
 msgid "[I]For bugs, requests or general questions visit the [/I]"
-msgstr ""
+msgstr "[I]Для ошибок, запросов или общих вопросов посетите[/I]"
 
 msgctxt "#32192"
 msgid "[I]  Artwork Downloader Ex thread on the XBMC forum. [/I]"
-msgstr ""
+msgstr "[I]  ветку Artwork Downloader на форуме KODI.[/I]"
