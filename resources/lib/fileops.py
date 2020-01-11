@@ -24,18 +24,18 @@ import urllib
 import urllib2
 import xbmc
 import xbmcvfs
-import lib.common
+import resources.lib.common
 
 ### import libraries
-from lib.script_exceptions import *
-from lib.utils import dialog_msg, log
+from resources.lib.script_exceptions import *
+from resources.lib.utils import dialog_msg, log
 from traceback import print_exc
 from urllib2 import HTTPError, URLError
 
 ### get addon info
-__addon__        = lib.common.__addon__
-__addonprofile__ = lib.common.__addonprofile__
-__localize__     = lib.common.__localize__
+__addon__        = resources.lib.common.__addon__
+__addonprofile__ = resources.lib.common.__addonprofile__
+__localize__     = resources.lib.common.__localize__
 
 tempdir = os.path.join(__addonprofile__, 'temp')
 THUMBS_CACHE_PATH = xbmc.translatePath( "special://profile/Thumbnails/Video" )

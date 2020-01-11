@@ -23,9 +23,9 @@ import sys
 #import libraries
 import xml.etree.ElementTree as ET
 from operator import itemgetter
-from lib.language import *
-from lib.script_exceptions import NoFanartError
-from lib.utils import *
+from resources.lib.language import *
+from resources.lib.script_exceptions import NoFanartError
+from resources.lib.utils import *
 
 API_URL = 'http://www.thetvdb.com/api/%s/series/%s/banners.xml'
 

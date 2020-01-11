@@ -2,10 +2,10 @@
 <addon
 	id="script.artwork.downloader.ex"
 	name="Artwork Downloader Ex"
-	version="18.1.1"
+	version="18.1.2"
 	provider-name="Martijn, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -30,5 +30,9 @@
 		<source>https://github.com/nkvoronov/script.artwork.downloader.ex.git</source>
 		<forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
 		<email>nkvoronov.gmail.com</email>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>

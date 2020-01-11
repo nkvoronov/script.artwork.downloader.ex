@@ -23,19 +23,19 @@ import time
 import xbmc
 import xbmcaddon
 import xbmcvfs
-import lib.common
+import resources.lib.common
 
 ### get addon info
-__addon__        = lib.common.__addon__
-__addonpath__    = lib.common.__addonpath__
-__localize__     = lib.common.__localize__
-__addonname__    = lib.common.__addonname__
-__version__      = lib.common.__version__
-__addonprofile__ = lib.common.__addonprofile__
+__addon__        = resources.lib.common.__addon__
+__addonpath__    = resources.lib.common.__addonpath__
+__localize__     = resources.lib.common.__localize__
+__addonname__    = resources.lib.common.__addonname__
+__version__      = resources.lib.common.__version__
+__addonprofile__ = resources.lib.common.__addonprofile__
 
 #import libraries
-from lib.settings import get
-from lib.utils import log
+from resources.lib.settings import get
+from resources.lib.utils import log
 setting = get()
 
 # starts update/sync

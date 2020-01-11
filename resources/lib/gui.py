@@ -18,14 +18,14 @@
 #
 
 #import modules
-import lib.common
+import resources.lib.common
 import xbmcgui
-from lib.utils import log
+from resources.lib.utils import log
 
 ### get addon info
-__addonname__    = lib.common.__addonname__
-__addonpath__    = lib.common.__addonpath__
-__localize__     = lib.common.__localize__
+__addonname__    = resources.lib.common.__addonname__
+__addonpath__    = resources.lib.common.__addonpath__
+__localize__     = resources.lib.common.__localize__
 
 ### set button actions for GUI
 ACTION_PREVIOUS_MENU = (9, 10, 92, 216, 247, 257, 275, 61467, 61448)

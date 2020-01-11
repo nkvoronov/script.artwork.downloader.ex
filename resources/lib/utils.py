@@ -18,7 +18,7 @@
 #
 
 #import modules
-import lib.common
+import resources.lib.common
 import socket
 import xbmc
 import xbmcgui
@@ -38,14 +38,14 @@ except:
     import storageserverdummy as StorageServer
 
 ### import libraries
-from lib.script_exceptions import *
+from resources.lib.script_exceptions import *
 from urllib2 import HTTPError, URLError
 
 ### get addon info
-__addon__        = lib.common.__addon__
-__localize__     = lib.common.__localize__
-__addonname__    = lib.common.__addonname__
-__icon__         = lib.common.__icon__
+__addon__        = resources.lib.common.__addon__
+__localize__     = resources.lib.common.__localize__
+__addonname__    = resources.lib.common.__addonname__
+__icon__         = resources.lib.common.__icon__
 
 cache = StorageServer.StorageServer("ArtworkDownloader",240)
 

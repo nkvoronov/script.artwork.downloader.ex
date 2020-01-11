@@ -24,31 +24,31 @@ import xbmc
 import xbmcaddon
 import xbmcgui
 import time
-import lib.common
+import resources.lib.common
 
 ### get addon info
-__addon__        = lib.common.__addon__
-__addonname__    = lib.common.__addonname__
-__addonpath__    = lib.common.__addonpath__
-__addonprofile__ = lib.common.__addonprofile__
-__localize__     = lib.common.__localize__
-__version__      = lib.common.__version__
+__addon__        = resources.lib.common.__addon__
+__addonname__    = resources.lib.common.__addonname__
+__addonpath__    = resources.lib.common.__addonpath__
+__addonprofile__ = resources.lib.common.__addonprofile__
+__localize__     = resources.lib.common.__localize__
+__version__      = resources.lib.common.__version__
 
 ### import libraries
-from lib import language
-from lib import provider
-from lib.apply_filters import filter
-from lib.art_list import arttype_list
-from lib.fileops import fileops, cleanup
-from lib.gui import choose_image, dialog_msg, choice_type, gui_imagelist, hasimages
-from lib.media_setup import _media_listing as media_listing
-from lib.media_setup import _media_unique as media_unique
-from lib.provider import tmdb # import on behalf of searching when there's no ID
-from lib.provider.local import local
-from lib.report import create_report
-from lib.script_exceptions import *
-from lib.settings import get_limit, get, check
-from lib.utils import *
+from resources.lib import language
+from resources.lib import provider
+from resources.lib.apply_filters import filter
+from resources.lib.art_list import arttype_list
+from resources.lib.fileops import fileops, cleanup
+from resources.lib.gui import choose_image, dialog_msg, choice_type, gui_imagelist, hasimages
+from resources.lib.media_setup import _media_listing as media_listing
+from resources.lib.media_setup import _media_unique as media_unique
+from resources.lib.provider import tmdb # import on behalf of searching when there's no ID
+from resources.lib.provider.local import local
+from resources.lib.report import create_report
+from resources.lib.script_exceptions import *
+from resources.lib.settings import get_limit, get, check
+from resources.lib.utils import *
 from traceback import print_exc
 from urlparse import urlsplit
 from xml.parsers.expat import ExpatError

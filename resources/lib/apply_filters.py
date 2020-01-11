@@ -18,7 +18,7 @@
 #
 
 ### import libraries
-from lib.settings import get_limit
+from resources.lib.settings import get_limit
 limit = get_limit()
 
 def filter(art_type, mediatype, artwork, downloaded_artwork, language, disctype = ''):

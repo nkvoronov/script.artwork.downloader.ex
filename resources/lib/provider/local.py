@@ -24,11 +24,11 @@ import urllib
 import xbmcvfs
 
 ### import libraries
-#from resources.lib.provider.base import BaseProvider
-from lib.art_list import arttype_list
-from lib.script_exceptions import NoFanartError
-from lib.settings import get_limit
-from lib.utils import *
+#from resources.resources.lib.provider.base import BaseProvider
+from resources.lib.art_list import arttype_list
+from resources.lib.script_exceptions import NoFanartError
+from resources.lib.settings import get_limit
+from resources.lib.utils import *
 from operator import itemgetter
 
 ### get addon info

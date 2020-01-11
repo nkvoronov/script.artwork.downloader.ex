@@ -22,10 +22,10 @@ import sys
 import urllib
 
 ### import libraries
-#from lib.provider.base import BaseProvider
-from lib.language import *
-from lib.script_exceptions import NoFanartError
-from lib.utils import *
+#from resources.lib.provider.base import BaseProvider
+from resources.lib.language import *
+from resources.lib.script_exceptions import NoFanartError
+from resources.lib.utils import *
 from operator import itemgetter
 
 ### get addon info

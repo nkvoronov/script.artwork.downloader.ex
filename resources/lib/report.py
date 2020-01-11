@@ -18,13 +18,13 @@
 #
 
 #import modules
-import lib.common
+import resources.lib.common
 import os
 import time
-from lib.utils import save_nfo_file
+from resources.lib.utils import save_nfo_file
 
-__addonprofile__ = lib.common.__addonprofile__
-__localize__     = lib.common.__localize__
+__addonprofile__ = resources.lib.common.__addonprofile__
+__localize__     = resources.lib.common.__localize__
 
 def create_report(data, download_counter, failed_items):
     # Download totals to log and to download report

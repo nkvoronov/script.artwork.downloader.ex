@@ -18,7 +18,7 @@
 #
 
 #import lib
-from lib.settings import get
+from resources.lib.settings import get
 
 ### Create list for Artwork types to download
 def arttype_list():

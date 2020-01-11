@@ -20,12 +20,12 @@
 #import modules
 import xbmc
 import xbmcaddon
-import lib.common
-from lib.utils import dialog_msg, log
+import resources.lib.common
+from resources.lib.utils import dialog_msg, log
 
 ### get addon info
-__addon__        = lib.common.__addon__
-__localize__     = lib.common.__localize__
+__addon__        = resources.lib.common.__addon__
+__localize__     = resources.lib.common.__localize__
 
 ### General seetting variables
 def get():

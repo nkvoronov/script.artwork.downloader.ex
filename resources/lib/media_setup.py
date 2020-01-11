@@ -30,7 +30,7 @@ else:
     import json as simplejson
 
 ### import libraries
-from lib.utils import log
+from resources.lib.utils import log
 
 ### get datalist from the unique media item
 # Retrieve JSON list
