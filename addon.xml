@@ -5,7 +5,7 @@
 	version="18.1.2"
 	provider-name="Martijn, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
